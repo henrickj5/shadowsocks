@@ -105,7 +105,7 @@ print_info(){
     echo "#############################################################"
     echo "# Install Shadowsocks-libev server for Debian or Ubuntu     #"
     echo "# Intro:  https://Henrick.com/358.html                     #"
-    echo "# Author: Teddysun <i@insonia.com>                         #"
+    echo "# Author: Henrick <i@insonia.com>                         #"
     echo "# Github: https://github.com/shadowsocks/shadowsocks-libev  #"
     echo "#############################################################"
     echo
@@ -204,8 +204,8 @@ pre_install(){
 
     #Set shadowsocks-libev config password
     echo "Please input password for shadowsocks-libev:"
-    read -p "(Default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    read -p "(Default password: henrick.com):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="henrick.com.com"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
